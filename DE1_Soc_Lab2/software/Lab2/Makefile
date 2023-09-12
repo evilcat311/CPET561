@@ -144,7 +144,7 @@ ELF := Lab2.elf
 # Paths to C, C++, and assembly source files.
 C_SRCS :=
 CXX_SRCS :=
-ASM_SRCS := part1.s
+ASM_SRCS := diplay0.s
 
 
 # Path to root of object file tree.

@@ -1,12 +1,12 @@
-# system info nios_system on 2023.09.11.21:19:59
+# system info nios_system on 2023.09.12.11:53:48
 system_info:
 name,value
 DEVICE,5CSEMA5F31C6
 DEVICE_FAMILY,Cyclone V
-GENERATION_ID,1694481585
+GENERATION_ID,1694534011
 #
 #
-# Files generated for nios_system on 2023.09.11.21:19:59
+# Files generated for nios_system on 2023.09.12.11:53:48
 files:
 filepath,kind,attributes,module,is_top
 simulation/nios_system.vhd,VHDL,,nios_system,true
