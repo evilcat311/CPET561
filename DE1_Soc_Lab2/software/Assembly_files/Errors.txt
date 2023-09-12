@@ -1,0 +1,18 @@
+10:59:17 **** Incremental Build of configuration Nios II for project Lab2 ****
+make all 
+Info: Building ../Lab2_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Lab2_bsp/
+[BSP build complete]
+Info: Linking Lab2.elf
+nios2-elf-g++  -T'../Lab2_bsp//linker.x' -msys-crt0='../Lab2_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Lab2_bsp/   -Wl,-Map=Lab2.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Lab2.elf obj/default/part1.o -lm -msys-lib=m
+obj/default/part1.o: In function `main':
+S:\CPET_561\DE1_Soc_Lab2\software\Lab2/part1.s:21: undefined reference to `SW'
+S:\CPET_561\DE1_Soc_Lab2\software\Lab2/part1.s:21: undefined reference to `SW'
+obj/default/part1.o: In function `DISPLAY':
+S:\CPET_561\DE1_Soc_Lab2\software\Lab2/part1.s:54: undefined reference to `LOOP'
+S:\CPET_561\DE1_Soc_Lab2\software\Lab2/part1.s:54:(.text+0x6c): relocation truncated to fit: R_NIOS2_PCREL16 against `LOOP'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Lab2.elf] Error 1
+
+10:59:18 Build Finished (took 1s.42ms)
+
