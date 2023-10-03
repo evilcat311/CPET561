@@ -1,0 +1,25 @@
+# system info unsaved on 2023.09.29.12:29:40
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1696004976
+#
+#
+# Files generated for unsaved on 2023.09.29.12:29:40
+files:
+filepath,kind,attributes,module,is_top
+simulation/unsaved.vhd,VHDL,,unsaved,true
+simulation/submodules/unsaved_jtag_uart_0.vhd,VHDL,,unsaved_jtag_uart_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+unsaved.jtag_uart_0,unsaved_jtag_uart_0
+unsaved.my_custom_ip_0,unsaved_my_custom_ip_0
+unsaved.nios2_gen2_0,unsaved_nios2_gen2_0
+unsaved.onchip_memory2_0,unsaved_onchip_memory2_0
+unsaved.sysid_qsys_0,unsaved_sysid_qsys_0
+unsaved.mm_interconnect_0,unsaved_mm_interconnect_0
+unsaved.irq_mapper,unsaved_irq_mapper
+unsaved.rst_controller,altera_reset_controller

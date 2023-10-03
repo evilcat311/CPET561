@@ -1,0 +1,9 @@
+17:39:42 **** Incremental Build of configuration Nios II for project LAB3_test ****
+make all 
+Info: Building ../LAB3_test_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../LAB3_test_bsp/
+[BSP build complete]
+[LAB3_test build complete]
+
+17:39:43 Build Finished (took 1s.185ms)
+

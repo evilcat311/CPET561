@@ -16,3 +16,6 @@ nios2-elf-objdump --disassemble --syms --all-header --source Lab2.elf >Lab2.objd
 21:59:17 **** Clean-only build of configuration Nios II for project try2_bsp ****
 make clean 
 [BSP clean complete]
+12:04:07 **** Clean-only build of configuration Nios II for project atat_bsp ****
+make clean 
+[BSP clean complete]

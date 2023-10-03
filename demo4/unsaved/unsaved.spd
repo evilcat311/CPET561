@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/unsaved_jtag_uart_0.vhd"
+   type="VHDL"
+   library="jtag_uart_0" />
+ <file path="simulation/unsaved.vhd" type="VHDL" />
+ <topLevel name="unsaved" />
+ <deviceFamily name="cyclonev" />
+ <modelMap
+   controllerPath="unsaved.onchip_memory2_0"
+   modelPath="unsaved.onchip_memory2_0" />
+</simPackage>

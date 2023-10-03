@@ -1,0 +1,21 @@
+15:39:16 **** Incremental Build of configuration Nios II for project Lab3_part2 ****
+make all 
+Info: Building ../Lab3_part2_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Lab3_part2_bsp/
+[BSP build complete]
+Info: Compiling TimerInterrupt.c to obj/default/TimerInterrupt.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Lab3_part2_bsp//HAL/inc -I../Lab3_part2_bsp/ -I../Lab3_part2_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/TimerInterrupt.o TimerInterrupt.c
+Info: Linking Lab3_part2.elf
+nios2-elf-g++  -T'../Lab3_part2_bsp//linker.x' -msys-crt0='../Lab3_part2_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Lab3_part2_bsp/   -Wl,-Map=Lab3_part2.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Lab3_part2.elf obj/default/TimerInterrupt.o -lm -msys-lib=m
+nios2-elf-insert Lab3_part2.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 2 --sidp 0x11060 --timestamp 1695750945 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name nios_system --quartus_project_dir "S:/esd/DE1_SoC_Lab3" --jdi ../..//output_files/Lab3.jdi --sopcinfo S:/esd/DE1_SoC_Lab3/Software/Lab3_part2_bsp/../../nios_system.sopcinfo
+Info: (Lab3_part2.elf) 15 KBytes program size (code + initialized data).
+Info:                  10 KBytes free for stack + heap.
+Info: Creating Lab3_part2.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Lab3_part2.elf >Lab3_part2.objdump
+[Lab3_part2 build complete]
+15:39:22 **** Incremental Build of configuration Nios II for project Lab3_part2 ****
+make all 
+Info: Building ../Lab3_part2_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Lab3_part2_bsp/
+[BSP build complete]
+[Lab3_part2 build complete]
